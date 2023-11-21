@@ -89,7 +89,9 @@ main{
 }
 .mystatu div::after{
  
-    bottom: 238px;
+  
+    z-index: 999;
+    bottom: 378px;
     position: absolute;
     content: "+";
     background-color: #FF9800;
@@ -101,6 +103,7 @@ main{
     color: rgb(2, 2, 2);
     padding-left: 3px;
     left: 55px;
+
 }
 main img{
     border-color: rgb(61, 245, 29);
@@ -114,4 +117,20 @@ main img{
     margin-left: 20px;
     bottom: -21px;
     float: left;
+}
+.Viewed img{
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 20px;
+    bottom: -21px;
+    float: left;
+}
+.main-body p{
+margin-left: 20px;
+color:gainsboro ;
+font-weight: 600;
 }
