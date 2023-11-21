@@ -59,12 +59,12 @@ main{
  display: flex;
  justify-content:space-evenly;
 }
-main:hover{
+/* main:hover{
     transform: scale(1.1);
-    /* width: 90%; */
+     width: 90%; 
     background-color: #fff;
     box-sizing: border-box;
-}
+} */
 main  img{
     border-radius: 30px;
     height: 30px;
@@ -77,4 +77,73 @@ main  img{
 hr{
     display: flex;
     justify-items: end;
+}
+.tap{
+    bottom: 20px;
+    right: 22px;
+    border-radius: 30px;
+  text-align: center;
+    position:fixed;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(32, 167, 32);
+}
+.tap p{
+    
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4px;
+}
+.add
+{
+   display: block;
+}
+.add .tapset{
+    margin-bottom: 37px;
+    z-index: 999;
+    bottom: 20px;
+    right: 23px;
+    border-radius: 30px;
+    text-align: center;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(32, 167, 32);
+}
+.add i{
+    
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4px;
+}
+.add .tapdec{
+    margin-bottom: 112px;
+    z-index: 999;
+    bottom: 20px;
+    right: 23px;
+    border-radius: 30px;
+    text-align: center;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(32, 167, 32);
+}
+.add .tapclock{
+    margin-bottom: 75px;
+    z-index: 999;
+    bottom: 20px;
+    right: 24px;
+    border-radius: 30px;
+    text-align: center;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(32, 167, 32);
+}
+.tap:hover .add{
+  display: none;
 }
