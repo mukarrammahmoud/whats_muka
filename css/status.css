@@ -87,11 +87,14 @@ main{
     
     float: left;
 }
+.mystatu div{
+    position: relative;
+}
 .mystatu div::after{
  
   
     z-index: 999;
-    bottom: 407px;
+    top: 28px;
     position: absolute;
     content: "+";
     background-color: #FF9800;
@@ -102,8 +105,7 @@ main{
     font-weight: 900;
     color: rgb(2, 2, 2);
     padding-left: 3px;
-    left: 55px;
-
+    left: 35px;
 }
 main img{
     border-color: rgb(61, 245, 29);
